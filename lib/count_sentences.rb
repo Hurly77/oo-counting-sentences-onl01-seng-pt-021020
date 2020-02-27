@@ -25,6 +25,7 @@ class String
 
   def count_sentences
     self.count.split(".", "!", "?"). each do |x|
+      self
 binding.pry
 
   end
