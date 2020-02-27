@@ -24,7 +24,7 @@ class String
   end
 
   def count_sentences
-    self.count.split(".", "!", "?"). each do |x|
+    self.split(/[.?!]+/)
     end
   end
 end
